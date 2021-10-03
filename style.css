@@ -21,22 +21,15 @@ p {
   font-weight: 400;
 }
 
-.main-container {
-  background-color: hsl(0, 0%, 95%);
-  min-height: 100vh;
-  width: 100vw;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100wh;
   background-color: hsl(0, 0%, 95%);
-  padding: 90px 30px;
+  padding:50px 0 50px 0;
 }
 
 .container>div {
@@ -92,6 +85,7 @@ p {
 
   .container {
     flex-direction: row;
+    padding: 0;
   }
 
   .sedan {
